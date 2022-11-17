@@ -1,0 +1,85 @@
+@media screen and (min-width: 992px) {
+    #navbar {
+        margin: 40px 100px 0px;
+    }
+    #navbar.scrolled {
+        margin: 0px;
+        border-radius: 0px;
+    }
+
+
+}
+
+@media screen and (max-width: 820px){
+     #navbar{
+        margin: 5px 5px;
+    }
+
+    .primaryHeader{
+        padding-top: 100px;
+        padding-bottom: 50px;
+        background: linear-gradient(to top, rgb(186, 217, 162), rgb(237, 250, 228));
+    }
+
+    .logo-homepage {
+        padding-top: 50px;
+    }
+
+    .slogan{
+        text-align: center;
+    }
+    
+    .header-img{
+        height: 400px;
+        right: 0px;
+        top: 0px;
+        z-index: 99;
+    }
+
+    .search-bar{
+        padding: 10px;
+    }
+
+    .bg-countdown{
+        padding: 50px 20px;
+    }
+    
+    .offer-title{
+        font-size: 50px;
+        text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    .countdown{
+        margin-top: 15px;
+        padding: 20px 30px;
+    }
+    
+    .time{
+        display: flex;
+       justify-content: center;
+    }
+
+    .day, .hour, .minute, .second{
+        margin: 0;
+        margin-right: 10px;
+        padding: 0;
+    }
+
+    .logo-h1 {
+        font-size: 40px;
+    }
+    .secondaryHeader{
+        min-height: 10px;
+        padding-top: 100px;
+       
+    }
+    .padding-mobile{
+        padding-top: 80px;
+    }
+    
+    .img-create-an{
+        height: 300px;
+        width: auto;
+    }
+
+}
